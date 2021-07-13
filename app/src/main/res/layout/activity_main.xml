@@ -10,12 +10,12 @@
         android:id="@+id/InstagramTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/yesteryear"
-        android:text="Instagram"
+        android:text=" Instagram"
         android:textColor="#0C0C0C"
-        android:textSize="38sp"
+        android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,96 +63,99 @@
 
     <ImageButton
         android:id="@+id/hosinogennButton1"
-        android:layout_width="53dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="105dp"
-        android:layout_marginBottom="7dp"
-        android:background="#FFFFFF"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="579dp"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/hosinogennTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hoshinogenn" />
+        app:srcCompat="@drawable/piero" />
 
     <ImageButton
         android:id="@+id/kiyoharakayaButton1"
-        android:layout_width="57dp"
-        android:layout_height="62dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="90dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="579dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/hanshinButton"
         app:layout_constraintStart_toEndOf="@+id/hosinogennButton1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kiyoharakaya" />
+        app:srcCompat="@drawable/setubun" />
 
     <ImageButton
         android:id="@+id/hanshinButton"
-        android:layout_width="63dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="88dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="579dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/alexandrosButon"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/th" />
+        app:srcCompat="@drawable/buta" />
 
     <ImageButton
         android:id="@+id/alexandrosButon"
-        android:layout_width="61dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="90dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="581dp"
-        android:background="#FFFFFF"
+        android:layout_marginBottom="579dp"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/kiyoharakayaButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/alexandros" />
+        app:srcCompat="@drawable/kyouryuu" />
 
     <ImageButton
         android:id="@+id/kiyoharakayaButton2"
-        android:layout_width="57dp"
-        android:layout_height="62dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginTop="90dp"
         android:layout_marginBottom="579dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tthButton"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kiyoharakaya" />
+        app:srcCompat="@drawable/setubun" />
 
     <ImageButton
         android:id="@+id/tthButton"
         android:layout_width="60dp"
-        android:layout_height="62dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="90dp"
         android:layout_marginBottom="579dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/background_circle"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/kiyoharakayaButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/thh" />
+        app:srcCompat="@drawable/oni" />
 
     <ImageButton
         android:id="@+id/imageButton19"
         android:layout_width="20dp"
         android:layout_height="23dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="135dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="579dp"
         android:background="#FFFFFF"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pl" />
@@ -173,8 +176,8 @@
         android:id="@+id/hosinogennTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="163dp"
         android:text="ストーリーズ"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -184,9 +187,9 @@
         android:id="@+id/kiyoharakayaTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="160dp"
-        android:text="kaya_kiyohara11"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="163dp"
+        android:text="setubun_kisetu"
         android:textSize="8sp"
         app:layout_constraintStart_toEndOf="@+id/hosinogennTextView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -195,9 +198,9 @@
         android:id="@+id/thTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="160dp"
-        android:text="hanshin1935"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="163dp"
+        android:text="buta11211"
         android:textSize="8sp"
         app:layout_constraintStart_toEndOf="@+id/kiyoharakayaTextView1"
         app:layout_constraintTop_toTopOf="parent" />
@@ -206,9 +209,9 @@
         android:id="@+id/alexandrosTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="160dp"
-        android:text="alexandros_3150"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="163dp"
+        android:text="kyouryuu_3150"
         android:textSize="8sp"
         app:layout_constraintStart_toEndOf="@+id/thTextView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -217,9 +220,9 @@
         android:id="@+id/kiyoharakayaTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="160dp"
-        android:text="kaya_kiyo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="163dp"
+        android:text="setubunse"
         android:textSize="8sp"
         app:layout_constraintStart_toEndOf="@+id/alexandrosTextView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -228,10 +231,11 @@
         android:id="@+id/thTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
-        android:text="hansshi"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="163dp"
+        android:text="onioni"
         android:textSize="8sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kiyoharakayaTextView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
