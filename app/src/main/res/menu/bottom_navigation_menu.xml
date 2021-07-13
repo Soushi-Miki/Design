@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/homehome"
+        android:title="home"/>
+    <item
+        android:id="@+id/megane"
+        android:icon="@drawable/megane"
+        android:title="ペット"/>
+    <item
+        android:id="@+id/sankaku"
+        android:icon="@drawable/sankaku"
+        android:title="太陽"/>
+    <item
+        android:id="@+id/kaban"
+        android:icon="@drawable/kaban"
+        android:title="飛行機"/>
+
+    <item
+        android:id="@+id/sakanakusyon"
+        android:icon="@drawable/sakanakusyon"
+        android:title="飛行機"/>
+
+</menu>
