@@ -6,60 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/InstagramTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/yesteryear"
-        android:text=" Instagram"
-        android:textColor="#0C0C0C"
-        android:textSize="36sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/messageButton"
-        android:layout_width="46dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="22dp"
-        android:background="#FFFFFF"
-        android:shape="ring"
-        app:layout_constraintBottom_toTopOf="@+id/kiyoharakayaButton2"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/custom_toolbar"
+        android:layout_width="416dp"
+        android:layout_height="63dp"
+        android:background="#d3d3d3"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/sym_action_chat" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageButton
-        android:id="@+id/hertButton"
-        android:layout_width="33dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="25dp"
-        android:background="#FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/kiyoharakayaButton2"
-        app:layout_constraintEnd_toStartOf="@+id/messageButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/minminiihert" />
+        <TextView
+            android:id="@+id/InstagramTextView"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yesteryear"
+            android:text=" Instagram"
+            android:textColor="#0C0C0C"
+            android:textSize="28sp" />
 
-    <ImageButton
-        android:id="@+id/toukouButton"
-        android:layout_width="49dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
-        android:background="#FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/alexandrosButon"
-        app:layout_constraintEnd_toStartOf="@+id/hertButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/plusbutton" />
+        <ImageButton
+            android:id="@+id/toukouButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plusss"
+            tools:layout_editor_absoluteX="236dp" />
+
+        <ImageButton
+            android:id="@+id/hertButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/h"
+            tools:layout_editor_absoluteX="296dp" />
+
+        <ImageButton
+            android:id="@+id/commentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comment"
+            tools:layout_editor_absoluteX="356dp" />
+
+    </androidx.appcompat.widget.Toolbar>
 
     <ImageButton
         android:id="@+id/hosinogennButton1"
@@ -284,7 +274,7 @@
         app:srcCompat="@drawable/minminiihert" />
 
     <ImageButton
-        android:id="@+id/commentButton"
+        android:id="@+id/comment"
         android:layout_width="21dp"
         android:layout_height="20dp"
         android:layout_marginStart="14dp"
@@ -303,7 +293,7 @@
         android:background="#FBFBFB"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/commentButton"
+        app:layout_constraintStart_toEndOf="@+id/comment"
         app:srcCompat="@drawable/k" />
 
     <TextView
