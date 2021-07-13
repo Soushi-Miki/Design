@@ -8,19 +8,19 @@
     <item
         android:id="@+id/megane"
         android:icon="@drawable/megane"
-        android:title="ペット"/>
+        android:title="search"/>
     <item
         android:id="@+id/sankaku"
         android:icon="@drawable/sankaku"
-        android:title="太陽"/>
+        android:title="movie"/>
     <item
         android:id="@+id/kaban"
         android:icon="@drawable/kaban"
-        android:title="飛行機"/>
+        android:title="shopping"/>
 
     <item
         android:id="@+id/sakanakusyon"
         android:icon="@drawable/sakanakusyon"
-        android:title="飛行機"/>
+        android:title="profile"/>
 
 </menu>
